@@ -18,8 +18,20 @@ Anaconda - Python 3.7
 ### Step 6: 
 
 ## PROGRAM:
-
+```
+## DEVELOPED BY: Sundaramurthy M
+## REFERENCE NUMBER: 23010238
+num_words =0
+file1 = open("text.txt", "r")
+with open('text.txt','r') as file1:
+    for i in file1:
+        word =i.split()
+        num_words += len(word)
+print("Number of words={}".format(num_words))
+```
 ### OUTPUT:
+<img width="660" alt="Screenshot 2023-11-18 at 10 12 33 AM" src="https://github.com/Murthy46/Word-count/assets/145112768/412ed4e7-433c-4234-bd76-7d6c3ec83b3b">
+
 
 
 
