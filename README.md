@@ -29,6 +29,13 @@ with open('text.txt','r') as file1:
         num_words += len(word)
 print("Number of words={}".format(num_words))
 ```
+#textfile
+```python
+with open("text.txt",'w')as fp:
+  fp.write("Hello World")
+  fp.write("\nWelcome to Python")
+  fp.write("\nHave a Good Day")
+```
 ### OUTPUT:
 <img width="660" alt="Screenshot 2023-11-18 at 10 12 33 AM" src="https://github.com/Murthy46/Word-count/assets/145112768/412ed4e7-433c-4234-bd76-7d6c3ec83b3b">
 
